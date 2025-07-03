@@ -1,0 +1,118 @@
+aside, main{
+    display:flex;
+    flex-direction: column;
+}
+
+#container{
+    display:flex;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.margin-top-0
+{
+    margin-top:0;
+}
+
+.c-grey{
+    color:#545454;
+}
+
+.c-blue{
+    color:#163853;
+}
+
+.margin-bottom-10{
+    margin-bottom:10px;
+}
+
+aside{
+    background-color: #163853;
+    padding:30px;
+
+}
+
+aside hr {
+    color:white;
+    margin-top:5px;
+}
+
+aside p, aside li, aside h2{
+    color:white;
+}
+
+#container{
+    margin:0;
+    width:992px;
+    margin:auto;
+    font-family: Segoe UI;
+    
+}
+
+h1{
+    font-size:30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    font-size:25px;
+    text-transform: uppercase;
+    color:#163853;
+    margin-bottom:0;
+}
+
+h3{
+    margin-top:3px;
+    margin-bottom:3px;
+    text-transform: uppercase;
+}
+
+main{
+    padding-left:50px;
+    padding-right:50px;
+    background-color:white;
+}
+
+section>p, article>div>p{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+body{
+    margin:0;
+    background-color:rgb(241, 239, 239);
+}
+
+.date{
+    font-style:italic;
+    margin-bottom:0;
+}
+
+.poste{
+    font-weight:bold;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+article{
+    margin-bottom:20px;
+}
+
+article ul{
+    margin-top:5px;
+}
+
+@media screen and (max-width: 640px) {
+  #container{
+    display:flex;
+    flex-direction: column-reverse;
+    width:auto;
+  }
+
+  main section{
+    margin-bottom:20px;
+  }
+}
